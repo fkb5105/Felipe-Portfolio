@@ -372,7 +372,8 @@ dl,
 form,
 .fluid-video-wrapper,
 .ss-custom-select {
-	margin-bottom: 3rem;
+	margin-bottom: 4rem;
+	margin-top: 4rem;
 }
 
 /**
@@ -969,7 +970,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .skill-bars li .progress span {
 	position: absolute;
-	right: 0;
+	right: -10px;
 	top: -3.6rem;
 	display: block;
 	font-family: "poppins-regular", sans-serif;
@@ -1300,8 +1301,8 @@ header .logo a {
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
-	height: 100%;
-	min-height: 720px;
+	height:100%;
+	min-height: 600px;
 	display: table;
 	position: relative;
 	text-align: center;
@@ -1330,8 +1331,8 @@ header .logo a {
 	font-size: 8.4rem;
 	line-height: 1.071;
 	max-width: 900px;
-	margin-top: 0;
-	margin-bottom: .6rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 	margin-left: auto;
 	margin-right: auto;
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -1341,7 +1342,8 @@ header .logo a {
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
-	margin-bottom: 0;
+	margin-bottom: 2.5rem;
+	margin-top:2.5rem;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
@@ -1378,7 +1380,7 @@ header .logo a {
 	height: 6rem !important;
 	line-height: 5.4rem !important;
 	padding: 0 3.5rem 0 3rem !important;
-	margin-top: .6rem;
+	margin-top: 1.5rem;
 	font-size: 1.3rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
@@ -1437,7 +1439,7 @@ header .logo a {
 }
 @media only screen and (max-width:768px) {
 	#intro {
-		min-height: 660px;
+		min-height: 600px;
 	}
 	.intro-content h1 {
 		font-size: 5.2rem;
@@ -1457,7 +1459,7 @@ header .logo a {
 }
 @media only screen and (max-width:600px) {
 	#intro {
-		min-height: 600px;
+		min-height: 540px;
 	}
 	.intro-content h1 {
 		font-size: 4.6rem;
